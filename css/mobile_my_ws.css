@@ -1,0 +1,110 @@
+.container-home {
+  margin-top: 50px;
+}
+
+#navbar {
+  height: 182.6px;
+}
+   
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul, #navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+  font-size: 1.1rem;
+}
+
+/* Showcase */
+#showcase {
+  height: 100%;
+}
+
+#showcase .showcase-content {
+  padding-top: 30px;
+}
+
+#showcase .showcase-content p {
+  font-size: 1.3rem;
+  padding-bottom: 15px;
+}
+
+.button {
+  padding-bottom: 30px;
+}
+
+/* Home Info */
+
+#home-info .info-img {
+  display: none;
+}
+
+#home-info .info-content {
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 400px) {
+  #showcase .showcase-content h1 {
+    font-size: 40px;
+    height: 67px;
+  }
+
+  #home-info {
+    height: 675px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 550px) {
+  #home-info {
+    height: 525px;
+  }
+  #showcase .showcase-content {
+    width: 80%;
+  }
+  #showcase .showcase-content h1 {
+    font-size: 55px;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 769px) {
+  #showcase .showcase-content {
+    width: 400px;
+  }
+  #showcase .showcase-content h1 {
+  font-size: 55px;
+  }
+}
+
+/* Boxes */
+.box {
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* About */
+
+
+#about-info .info-right,
+#about-info .info-left {
+  float: none;
+  width: 100%;
+}
+
+.l-heading {
+  text-align: center;
+}
+
+#about-info .info-right {
+  margin-top: 30px;
+}
